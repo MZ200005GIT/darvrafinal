@@ -11,5 +11,6 @@ public class washingmachine : MonoBehaviour
     public void OnPress()
     {
         audio.PlayOneShot(clip);
+        Debug.Log("pressed");
     }
 }
